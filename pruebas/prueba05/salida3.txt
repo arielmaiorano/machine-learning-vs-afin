@@ -1,0 +1,53 @@
+18-06-15 18:07:22.679957: Cargando datos desde dataset.csv...
+18-06-15 18:07:23.548948: Extrayendo columnas...
+18-06-15 18:07:23.587637: Normalizando X...
+18-06-15 18:07:23.921940: Separando datasets...
+
+================================================================================
+18-06-15 18:07:24.161012: Iniciando prueba para Red Neuronal (Neural Network, NN)
+Epoch 1/250
+ - 3s - loss: 2.7630 - acc: 0.1504
+Epoch 2/250
+ - 1s - loss: 2.1699 - acc: 0.2887
+Epoch 3/250
+ - 1s - loss: 1.9431 - acc: 0.3603
+Epoch 4/250
+ - 1s - loss: 1.8069 - acc: 0.4024
+Epoch 5/250
+ - 1s - loss: 1.7105 - acc: 0.4300
+Epoch 6/250
+ - 1s - loss: 1.6362 - acc: 0.4494
+Epoch 7/250
+ - 1s - loss: 1.5701 - acc: 0.4689
+Epoch 8/250
+ - 1s - loss: 1.5133 - acc: 0.4850
+Epoch 9/250
+ - 1s - loss: 1.4602 - acc: 0.4992
+Epoch 10/250
+ - 1s - loss: 1.4028 - acc: 0.5182
+Epoch 11/250
+ - 2s - loss: 1.3407 - acc: 0.5382
+Epoch 12/250
+ - 2s - loss: 1.2806 - acc: 0.5545
+Epoch 13/250
+ - 2s - loss: 1.2233 - acc: 0.5694
+Epoch 14/250
+ - 2s - loss: 1.1626 - acc: 0.5874
+Epoch 15/250
+ - 2s - loss: 1.0973 - acc: 0.6067
+Epoch 16/250
+ - 2s - loss: 1.0398 - acc: 0.6269
+Epoch 17/250
+ - 2s - loss: 0.9919 - acc: 0.6423
+Epoch 18/250
+ - 2s - loss: 0.9484 - acc: 0.6596
+Epoch 19/250
+ - 2s - loss: 0.9105 - acc: 0.6751
+Epoch 20/250
+ - 2s - loss: 0.8758 - acc: 0.6884
+Epoch 21/250
+ - 2s - loss: 0.8434 - acc: 0.7025
+Epoch 22/250
+ - 2s - loss: 0.8134 - acc: 0.7149
+Epoch 23/250
+ - 2s - loss: 0.7858 - acc: 0.7255

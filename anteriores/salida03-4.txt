@@ -1,0 +1,505 @@
+Vecinos más próximos (Nearest Neighbors) - score general: 0.9466467958271237
+Matríz de confusión:
+[[2227    7    2]
+ [  52 2168   17]
+ [ 222   58 1957]]
+Reporte de resultados:
+             precision    recall  f1-score   support
+
+          6       0.89      1.00      0.94      2236
+         13       0.97      0.97      0.97      2237
+         23       0.99      0.87      0.93      2237
+
+avg / total       0.95      0.95      0.95      6710
+
+###############################################################################
+Bayesiano ingenuo (Naive Bayes) - score general: 0.6046199701937407
+Matríz de confusión:
+[[1967   84  185]
+ [ 247 1114  876]
+ [ 297  964  976]]
+Reporte de resultados:
+             precision    recall  f1-score   support
+
+          6       0.78      0.88      0.83      2236
+         13       0.52      0.50      0.51      2237
+         23       0.48      0.44      0.46      2237
+
+avg / total       0.59      0.60      0.60      6710
+
+###############################################################################
+SVM Lineal (Linear SVM) - score general: 0.6105812220566319
+Matríz de confusión:
+[[1955  137  144]
+ [ 339 1309  589]
+ [ 316 1088  833]]
+Reporte de resultados:
+             precision    recall  f1-score   support
+
+          6       0.75      0.87      0.81      2236
+         13       0.52      0.59      0.55      2237
+         23       0.53      0.37      0.44      2237
+
+avg / total       0.60      0.61      0.60      6710
+
+###############################################################################
+Árbol de decisión (Decision Tree) - score general: 0.9721311475409836
+Matríz de confusión:
+[[2236    0    0]
+ [ 187 2050    0]
+ [   0    0 2237]]
+Reporte de resultados:
+             precision    recall  f1-score   support
+
+          6       0.92      1.00      0.96      2236
+         13       1.00      0.92      0.96      2237
+         23       1.00      1.00      1.00      2237
+
+avg / total       0.97      0.97      0.97      6710
+
+###############################################################################
+Bosques aleatorios (Random Forest) - score general: 0.8013412816691505
+Matríz de confusión:
+[[2105   76   55]
+ [ 244 1785  208]
+ [ 358  392 1487]]
+Reporte de resultados:
+             precision    recall  f1-score   support
+
+          6       0.78      0.94      0.85      2236
+         13       0.79      0.80      0.80      2237
+         23       0.85      0.66      0.75      2237
+
+avg / total       0.81      0.80      0.80      6710
+
+###############################################################################
+Epoch 1/100
+ - 2s - loss: 0.5387 - acc: 0.7855
+Epoch 2/100
+ - 1s - loss: 0.2366 - acc: 0.9321
+Epoch 3/100
+ - 1s - loss: 0.1484 - acc: 0.9615
+Epoch 4/100
+ - 1s - loss: 0.1071 - acc: 0.9721
+Epoch 5/100
+ - 1s - loss: 0.0811 - acc: 0.9785
+Epoch 6/100
+ - 1s - loss: 0.0626 - acc: 0.9849
+Epoch 7/100
+ - 1s - loss: 0.0517 - acc: 0.9865
+Epoch 8/100
+ - 1s - loss: 0.0409 - acc: 0.9904
+Epoch 9/100
+ - 1s - loss: 0.0320 - acc: 0.9935
+Epoch 10/100
+ - 1s - loss: 0.0265 - acc: 0.9947
+Epoch 11/100
+ - 1s - loss: 0.0225 - acc: 0.9950
+Epoch 12/100
+ - 1s - loss: 0.0175 - acc: 0.9968
+Epoch 13/100
+ - 1s - loss: 0.0168 - acc: 0.9960
+Epoch 14/100
+ - 1s - loss: 0.0097 - acc: 0.9988
+Epoch 15/100
+ - 1s - loss: 0.0136 - acc: 0.9961
+Epoch 16/100
+ - 1s - loss: 0.0069 - acc: 0.9990
+Epoch 17/100
+ - 1s - loss: 0.0082 - acc: 0.9983
+Epoch 18/100
+ - 1s - loss: 0.0086 - acc: 0.9980
+Epoch 19/100
+ - 1s - loss: 0.0069 - acc: 0.9985
+Epoch 20/100
+ - 1s - loss: 0.0091 - acc: 0.9972
+Epoch 21/100
+ - 1s - loss: 0.0034 - acc: 0.9995
+Epoch 22/100
+ - 1s - loss: 0.0060 - acc: 0.9981
+Epoch 23/100
+ - 1s - loss: 0.0059 - acc: 0.9985
+Epoch 24/100
+ - 1s - loss: 0.0061 - acc: 0.9983
+Epoch 25/100
+ - 1s - loss: 0.0029 - acc: 0.9994
+Epoch 26/100
+ - 1s - loss: 0.0076 - acc: 0.9973
+Epoch 27/100
+ - 1s - loss: 0.0066 - acc: 0.9975
+Epoch 28/100
+ - 1s - loss: 0.0042 - acc: 0.9987
+Epoch 29/100
+ - 1s - loss: 0.0017 - acc: 0.9998
+Epoch 30/100
+ - 1s - loss: 0.0077 - acc: 0.9977
+Epoch 31/100
+ - 1s - loss: 0.0047 - acc: 0.9987
+Epoch 32/100
+ - 1s - loss: 0.0027 - acc: 0.9992
+Epoch 33/100
+ - 1s - loss: 0.0031 - acc: 0.9992
+Epoch 34/100
+ - 1s - loss: 0.0033 - acc: 0.9990
+Epoch 35/100
+ - 1s - loss: 0.0031 - acc: 0.9989
+Epoch 36/100
+ - 1s - loss: 0.0059 - acc: 0.9981
+Epoch 37/100
+ - 1s - loss: 0.0029 - acc: 0.9992
+Epoch 38/100
+ - 1s - loss: 0.0024 - acc: 0.9991
+Epoch 39/100
+ - 1s - loss: 0.0038 - acc: 0.9988
+Epoch 40/100
+ - 1s - loss: 0.0012 - acc: 0.9999
+Epoch 41/100
+ - 1s - loss: 0.0047 - acc: 0.9983
+Epoch 42/100
+ - 1s - loss: 0.0018 - acc: 0.9994
+Epoch 43/100
+ - 1s - loss: 2.4893e-04 - acc: 1.0000
+Epoch 44/100
+ - 1s - loss: 8.6892e-05 - acc: 1.0000
+Epoch 45/100
+ - 1s - loss: 5.8240e-05 - acc: 1.0000
+Epoch 46/100
+ - 1s - loss: 4.1738e-05 - acc: 1.0000
+Epoch 47/100
+ - 1s - loss: 2.9431e-05 - acc: 1.0000
+Epoch 48/100
+ - 1s - loss: 0.0054 - acc: 0.9985
+Epoch 49/100
+ - 1s - loss: 0.0026 - acc: 0.9994
+Epoch 50/100
+ - 1s - loss: 0.0046 - acc: 0.9987
+Epoch 51/100
+ - 1s - loss: 0.0032 - acc: 0.9989
+Epoch 52/100
+ - 1s - loss: 0.0035 - acc: 0.9989
+Epoch 53/100
+ - 1s - loss: 4.5315e-04 - acc: 0.9999
+Epoch 54/100
+ - 1s - loss: 5.1591e-04 - acc: 0.9999
+Epoch 55/100
+ - 1s - loss: 0.0064 - acc: 0.9980
+Epoch 56/100
+ - 1s - loss: 5.0889e-04 - acc: 1.0000
+Epoch 57/100
+ - 1s - loss: 0.0028 - acc: 0.9993
+Epoch 58/100
+ - 1s - loss: 0.0018 - acc: 0.9994
+Epoch 59/100
+ - 1s - loss: 4.9935e-04 - acc: 0.9999
+Epoch 60/100
+ - 1s - loss: 0.0033 - acc: 0.9989
+Epoch 61/100
+ - 1s - loss: 0.0027 - acc: 0.9990
+Epoch 62/100
+ - 1s - loss: 2.9346e-04 - acc: 1.0000
+Epoch 63/100
+ - 1s - loss: 8.8361e-05 - acc: 1.0000
+Epoch 64/100
+ - 1s - loss: 2.1316e-05 - acc: 1.0000
+Epoch 65/100
+ - 1s - loss: 1.3886e-05 - acc: 1.0000
+Epoch 66/100
+ - 1s - loss: 1.0217e-05 - acc: 1.0000
+Epoch 67/100
+ - 1s - loss: 6.9311e-06 - acc: 1.0000
+Epoch 68/100
+ - 1s - loss: 4.5833e-06 - acc: 1.0000
+Epoch 69/100
+ - 1s - loss: 2.8908e-06 - acc: 1.0000
+Epoch 70/100
+ - 1s - loss: 0.0044 - acc: 0.9989
+Epoch 71/100
+ - 1s - loss: 0.0049 - acc: 0.9981
+Epoch 72/100
+ - 1s - loss: 3.2915e-04 - acc: 0.9999
+Epoch 73/100
+ - 1s - loss: 3.9686e-05 - acc: 1.0000
+Epoch 74/100
+ - 1s - loss: 1.5670e-05 - acc: 1.0000
+Epoch 75/100
+ - 1s - loss: 9.9897e-06 - acc: 1.0000
+Epoch 76/100
+ - 1s - loss: 6.5593e-06 - acc: 1.0000
+Epoch 77/100
+ - 1s - loss: 4.2373e-06 - acc: 1.0000
+Epoch 78/100
+ - 1s - loss: 2.7139e-06 - acc: 1.0000
+Epoch 79/100
+ - 1s - loss: 1.8105e-06 - acc: 1.0000
+Epoch 80/100
+ - 1s - loss: 1.1886e-06 - acc: 1.0000
+Epoch 81/100
+ - 1s - loss: 7.8357e-07 - acc: 1.0000
+Epoch 82/100
+ - 1s - loss: 5.2350e-07 - acc: 1.0000
+Epoch 83/100
+ - 1s - loss: 0.0028 - acc: 0.9992
+Epoch 84/100
+ - 1s - loss: 0.0049 - acc: 0.9985
+Epoch 85/100
+ - 1s - loss: 3.5863e-04 - acc: 0.9999
+Epoch 86/100
+ - 1s - loss: 2.4066e-05 - acc: 1.0000
+Epoch 87/100
+ - 1s - loss: 8.4275e-06 - acc: 1.0000
+Epoch 88/100
+ - 1s - loss: 5.3696e-06 - acc: 1.0000
+Epoch 89/100
+ - 1s - loss: 3.4634e-06 - acc: 1.0000
+Epoch 90/100
+ - 1s - loss: 2.1398e-06 - acc: 1.0000
+Epoch 91/100
+ - 1s - loss: 1.4367e-06 - acc: 1.0000
+Epoch 92/100
+ - 1s - loss: 9.5867e-07 - acc: 1.0000
+Epoch 93/100
+ - 1s - loss: 6.6506e-07 - acc: 1.0000
+Epoch 94/100
+ - 1s - loss: 4.6905e-07 - acc: 1.0000
+Epoch 95/100
+ - 1s - loss: 3.2471e-07 - acc: 1.0000
+Epoch 96/100
+ - 1s - loss: 2.3781e-07 - acc: 1.0000
+Epoch 97/100
+ - 1s - loss: 1.8307e-07 - acc: 1.0000
+Epoch 98/100
+ - 1s - loss: 1.5171e-07 - acc: 1.0000
+Epoch 99/100
+ - 1s - loss: 1.3191e-07 - acc: 1.0000
+Epoch 100/100
+ - 1s - loss: 1.2406e-07 - acc: 1.0000
+Red Neuronal (Neural Network, NN) - score general: 0.984053651266766
+Matríz de confusión:
+[[2193    3   40]
+ [   6 2205   26]
+ [   7   25 2205]]
+Reporte de resultados:
+             precision    recall  f1-score   support
+
+          6       0.99      0.98      0.99      2236
+         13       0.99      0.99      0.99      2237
+         23       0.97      0.99      0.98      2237
+
+avg / total       0.98      0.98      0.98      6710
+
+###############################################################################
+Epoch 1/100
+ - 6s - loss: 0.5346 - acc: 0.7886
+Epoch 2/100
+ - 5s - loss: 0.1855 - acc: 0.9531
+Epoch 3/100
+ - 5s - loss: 0.0702 - acc: 0.9888
+Epoch 4/100
+ - 5s - loss: 0.0164 - acc: 0.9991
+Epoch 5/100
+ - 5s - loss: 0.0038 - acc: 1.0000
+Epoch 6/100
+ - 5s - loss: 0.0012 - acc: 1.0000
+Epoch 7/100
+ - 5s - loss: 4.5918e-04 - acc: 1.0000
+Epoch 8/100
+ - 5s - loss: 1.7848e-04 - acc: 1.0000
+Epoch 9/100
+ - 5s - loss: 7.3813e-05 - acc: 1.0000
+Epoch 10/100
+ - 5s - loss: 3.1182e-05 - acc: 1.0000
+Epoch 11/100
+ - 5s - loss: 1.3376e-05 - acc: 1.0000
+Epoch 12/100
+ - 5s - loss: 5.8271e-06 - acc: 1.0000
+Epoch 13/100
+ - 5s - loss: 2.6077e-06 - acc: 1.0000
+Epoch 14/100
+ - 5s - loss: 1.1780e-06 - acc: 1.0000
+Epoch 15/100
+ - 5s - loss: 5.6971e-07 - acc: 1.0000
+Epoch 16/100
+ - 5s - loss: 3.1026e-07 - acc: 1.0000
+Epoch 17/100
+ - 5s - loss: 1.9658e-07 - acc: 1.0000
+Epoch 18/100
+ - 5s - loss: 1.5062e-07 - acc: 1.0000
+Epoch 19/100
+ - 5s - loss: 1.3148e-07 - acc: 1.0000
+Epoch 20/100
+ - 5s - loss: 1.2383e-07 - acc: 1.0000
+Epoch 21/100
+ - 5s - loss: 1.2081e-07 - acc: 1.0000
+Epoch 22/100
+ - 5s - loss: 1.1973e-07 - acc: 1.0000
+Epoch 23/100
+ - 5s - loss: 1.1943e-07 - acc: 1.0000
+Epoch 24/100
+ - 5s - loss: 1.1931e-07 - acc: 1.0000
+Epoch 25/100
+ - 4s - loss: 1.1927e-07 - acc: 1.0000
+Epoch 26/100
+ - 4s - loss: 1.1926e-07 - acc: 1.0000
+Epoch 27/100
+ - 4s - loss: 1.1925e-07 - acc: 1.0000
+Epoch 28/100
+ - 4s - loss: 1.1923e-07 - acc: 1.0000
+Epoch 29/100
+ - 4s - loss: 1.1922e-07 - acc: 1.0000
+Epoch 30/100
+ - 4s - loss: 1.1922e-07 - acc: 1.0000
+Epoch 31/100
+ - 4s - loss: 1.1922e-07 - acc: 1.0000
+Epoch 32/100
+ - 5s - loss: 1.1922e-07 - acc: 1.0000
+Epoch 33/100
+ - 5s - loss: 1.1922e-07 - acc: 1.0000
+Epoch 34/100
+ - 5s - loss: 1.1922e-07 - acc: 1.0000
+Epoch 35/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 36/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 37/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 38/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 39/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 40/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 41/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 42/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 43/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 44/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 45/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 46/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 47/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 48/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 49/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 50/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 51/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 52/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 53/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 54/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 55/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 56/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 57/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 58/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 59/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 60/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 61/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 62/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 63/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 64/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 65/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 66/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 67/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 68/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 69/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 70/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 71/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 72/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 73/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 74/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 75/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 76/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 77/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 78/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 79/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 80/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 81/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 82/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 83/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 84/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 85/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 86/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 87/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 88/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 89/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 90/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 91/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 92/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 93/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 94/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 95/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 96/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 97/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 98/100
+ - 4s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 99/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+Epoch 100/100
+ - 5s - loss: 1.1921e-07 - acc: 1.0000
+NN Recurrente con LSTM (RNN with LSTM) - score general: 0.9980625931445604
+Matríz de confusión:
+[[2226   10    0]
+ [   3 2234    0]
+ [   0    0 2237]]
+Reporte de resultados:
+             precision    recall  f1-score   support
+
+          6       1.00      1.00      1.00      2236
+         13       1.00      1.00      1.00      2237
+         23       1.00      1.00      1.00      2237
+
+avg / total       1.00      1.00      1.00      6710
+
+###############################################################################

@@ -1,0 +1,15 @@
+Red Neuronal (Neural Network, NN) - score general: 0.9959761549925484
+Matr▒z de confusi▒n:
+[[2227    8    1]
+ [   0 2231    6]
+ [   3    9 2225]]
+Reporte de resultados:
+             precision    recall  f1-score   support
+
+          3       1.00      1.00      1.00      2236
+         13       0.99      1.00      0.99      2237
+         20       1.00      0.99      1.00      2237
+
+avg / total       1.00      1.00      1.00      6710
+
+###############################################################################
